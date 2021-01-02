@@ -22,6 +22,7 @@ public  class Main {
                 String user_detail = br.readLine();
                 String[] user_details = user_detail.split(",");
                 user[i]=new User((user_details[0]),(user_details[1]),(user_details[2]),(user_details[3]));
+                //  i--;
                }
          System.out.println("1. Login");
          System.out.println("2. Exit");

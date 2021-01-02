@@ -13,10 +13,8 @@ public class TeamMember extends User {
                 try{
             if(requirement[i].getAssignedTo().getUserName().equals(userName)&& requirement[i].getAssignedTo().getUserName() != null ){
                 found=true;
-
             }
               }catch (Exception e){ }
-
         }
         }catch (Exception e){ System.out.println("No records found");}
         if(found==true){

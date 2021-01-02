@@ -15,39 +15,15 @@ public class User {
     public String getUserName() {
         return userName;
     }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
     public String getPassword() {
         return password;
     }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getRole() {
         return role;
     }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
-
     public User() {
 
     }
-
     public User(String userName) {
         this.userName = userName;
     }
@@ -58,8 +34,6 @@ public class User {
         this.password = password;
         this.role = role;
     }
-
-
     void display(BufferedReader br, Requirement[] requirement, User[] user) throws IOException {
         final String SMrole = "SM";
         final String TMrole = "TM";
@@ -122,7 +96,6 @@ public class User {
                     }
                 }
                 break;
-
 
             case TMrole:
 

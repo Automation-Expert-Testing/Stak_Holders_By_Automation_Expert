@@ -12,7 +12,6 @@ public class ScrumMaster extends User {
             Integer i=Integer.parseInt(Req_dets[2]);
             requirement[i]= new Requirement(Integer.parseInt(Req_dets[0]),Req_dets[1]);
         }
-
        public int countTotalRequirements(Requirement[] requirement){
          if(requirement==null || requirement.length==0)return 0;
          else return requirement.length;

@@ -26,55 +26,26 @@ public class Requirement {
     public Integer getId() {
         return id;
     }
-    public void setId(Integer id) {
-        this.id = id;
-    }
     public String getDescription() {
         return description;
     }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public User getCreatedBy() {
-        return createdBy;
-    }
-
-    public void setCreatedBy(User createdBy) {
-        this.createdBy = createdBy;
-    }
-
     public User getAssignedTo() {
         return assignedTo;
     }
-
     public void setAssignedTo(User assignedTo) {
         this.assignedTo = assignedTo;
     }
-
     public Integer getPlanTime() {
         return planTime;
     }
-
     public void setPlanTime(Integer planTime) {
         this.planTime = planTime;
     }
-
     public Float getBudget() {
         return budget;
     }
-
     public void setBudget(Float budget) {
         this.budget = budget;
-    }
-
-    public Boolean getRequiementStatus() {
-        return requiementStatus;
-    }
-
-    public void setRequiementStatus(Boolean requiementStatus) {
-        this.requiementStatus = requiementStatus;
     }
 
 Requirement(){
